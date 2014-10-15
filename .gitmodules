@@ -1,3 +1,6 @@
 [submodule "geoserver"]
 	path = geoserver
 	url = https://github.com/geoserver/geoserver.git
+[submodule "geotools"]
+	path = geotools
+	url = https://github.com/geotools/geotools.git
