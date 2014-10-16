@@ -1,0 +1,116 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.geoserver</groupId>
+    <artifactId>community</artifactId>
+    <version>2.6.0</version>
+  </parent>
+  
+  <groupId>org.geocent.netcdf</groupId>
+  <artifactId>geonetcdf</artifactId>
+  <version>1.0</version>
+  <name>NetCDF Coverage</name>
+  
+  <repositories>
+    <repository>
+      <id>opengeo</id>
+      <name>opengeo</name>
+      <url>http://repo.boundlessgeo.com</url>
+    </repository>
+  </repositories>
+  
+  <properties>
+    <!-- Set version explicitly here as this is a geotools netcdf unsupported module which requires an explicit build and its version does not have to follow the parent geotools version.  Recommend we add a marker (maybe -gce?) to the built version to indicate this is not regular ol' geotools 8.6 available out in the mvn repo.  -->
+    <geotools.netcdf.module.version>11.2</geotools.netcdf.module.version>
+    <!-- TODO: can we accept 1.6 from parent? -->
+    <source.version>1.5</source.version>
+    <target.version>1.5</target.version>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.wicket</groupId>
+      <artifactId>wicket</artifactId>
+      <!-- accept version from parent -->
+    </dependency>
+    <dependency>
+      <groupId>org.geoserver.web</groupId>
+        <artifactId>gs-web-core</artifactId>
+        <version>2.6.0</version><!--$NO-MVN-MAN-VER$-->
+      </dependency>
+    <dependency>
+      <groupId>org.geotools</groupId>
+      <artifactId>gt-gcenetcdf</artifactId>
+      <version>12.0</version><!--$NO-MVN-MAN-VER$-->
+    </dependency>
+  </dependencies>
+  
+  <build>
+      <!-- To define the plugin version in your parent POM -->
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>2.0</version>
+        </plugin>
+        <!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+        <plugin>
+        	<groupId>org.eclipse.m2e</groupId>
+        	<artifactId>lifecycle-mapping</artifactId>
+        	<version>1.0.0</version>
+        	<configuration>
+        		<lifecycleMappingMetadata>
+        			<pluginExecutions>
+        				<pluginExecution>
+        					<pluginExecutionFilter>
+        						<groupId>
+        							com.google.code.maven-svn-revision-number-plugin
+        						</groupId>
+        						<artifactId>
+        							svn-revision-number-maven-plugin
+        						</artifactId>
+        						<versionRange>[1.8-SVN7,)</versionRange>
+        						<goals>
+        							<goal>revision</goal>
+        						</goals>
+        					</pluginExecutionFilter>
+        					<action>
+        						<ignore></ignore>
+        					</action>
+        				</pluginExecution>
+        			</pluginExecutions>
+        		</lifecycleMappingMetadata>
+        	</configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  	<plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.0</version><!--$NO-MVN-MAN-VER$-->
+      </plugin>  	
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<configuration>
+  				<source>${source.version}</source>
+  				<target>${target.version}</target>
+  			</configuration>
+  		</plugin>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<configuration>
+  				<archive>
+  					<manifest>
+  						<addClasspath>true</addClasspath>
+  					</manifest>
+  				</archive>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
+</project>

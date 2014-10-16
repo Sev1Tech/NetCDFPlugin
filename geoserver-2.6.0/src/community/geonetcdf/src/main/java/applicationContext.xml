@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="geonetcdfStorePanel" class="org.geoserver.web.data.resource.DataStorePanelInfo">
+    <property name="id" value="geonetcdfRaster" />
+    <property name="factoryClass" value="org.geotools.gce.netcdf.NetCDFFormat" />
+    <property name="iconBase" value="org.geoserver.web.GeoServerApplication" />
+    <property name="icon" value="img/icons/geosilk/page_white_raster.png" />
+    <property name="componentClass"
+      value="org.geoserver.web.data.store.raster.GeoNetCDFRasterEditPanel" />
+  </bean>
+
+ <!-- Not ready to be activated yet.
+  <bean id="netCDFCoverageResourceConfigPanel"
+    class="org.geoserver.web.data.resource.NetCDFCoverageResourceConfigurationPanelInfo">
+    <property name="id" value="netCDFCoverage" />
+    <property name="titleKey" value="data.resource.config.netCDFCoverage" />
+    <property name="componentClass"
+      value="org.geoserver.web.data.resource.NetCDFCoverageResourceConfigurationPanel" />
+  </bean>
+  -->
+</beans>

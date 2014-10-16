@@ -159,6 +159,7 @@
         <module>netcdf-out</module>
         <module>mbtiles</module>
         <module>geopkg</module>
+        <module>geonetcdf</module>
 		<module>grib</module>
         <module>dyndimension</module>
 		<module>rest-ext</module>
@@ -319,6 +320,18 @@
       <id>validation</id>
       <modules>
         <module>validation</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>geonetcdf</id>
+      <modules>
+        <module>geonetcdf</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>magnatude-direction-wps</id>
+      <modules>
+        <module>magnatude-direction-wps</module>
       </modules>
     </profile>
   </profiles>

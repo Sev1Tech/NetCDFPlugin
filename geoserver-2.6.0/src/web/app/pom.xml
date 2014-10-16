@@ -1125,6 +1125,27 @@
         </dependency>
       </dependencies>
     </profile>
- </profiles>
+    <profile>
+      <id>geonetcdf</id>
+      <dependencies>
+        <dependency>
+          <groupId>org.geocent.netcdf</groupId>
+          <artifactId>geonetcdf</artifactId>
+          <version>1.0</version>
+        </dependency>
+      </dependencies>
+    </profile>
+    <profile>
+      <id>magnatude-direction-wps</id>
+      <dependencies>
+        <dependency>
+          <groupId>org.geocent.magnatude-direction-wps</groupId>
+          <artifactId>magnatude-direction-wps</artifactId>
+          <version>1.0</version>
+        </dependency>
+      </dependencies>
+    </profile>
+
+  </profiles>
 
 </project>
