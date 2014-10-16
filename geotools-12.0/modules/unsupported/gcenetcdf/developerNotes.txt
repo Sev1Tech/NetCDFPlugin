@@ -1,0 +1,6 @@
+This project is being contributed to GeoTools.
+So we need to maintain the GeoTools standards:
+
+http://docs.geotools.org/latest/developer/conventions/code/style.html
+
+Particularly, set your IDE formatting references to use the GeoTools formatter.

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>gt-netcdf</name>
+	<comment>Datasource created to read NetCDF format.</comment>
+	<projects>
+		<project>gt-api</project>
+		<project>gt-coverage</project>
+		<project>gt-epsg-hsql</project>
+		<project>gt-graph</project>
+		<project>gt-main</project>
+		<project>gt-metadata</project>
+		<project>gt-opengis</project>
+		<project>gt-referencing</project>
+		<project>gt-xml</project>
+		<project>gt-xsd-core</project>
+		<project>gt-xsd-fes</project>
+		<project>gt-xsd-filter</project>
+		<project>gt-xsd-gml2</project>
+		<project>gt-xsd-gml3</project>
+		<project>gt-xsd-ows</project>
+		<project>gt-xsd-wfs</project>
+		<project>net.opengis.fes</project>
+		<project>net.opengis.ows</project>
+		<project>net.opengis.wfs</project>
+		<project>org.w3.xlink</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>

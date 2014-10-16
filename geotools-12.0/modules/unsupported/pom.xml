@@ -129,6 +129,18 @@
          <module>feature-aggreate</module>
        </modules>
      </profile>
+    <profile>
+      <id>gcenetcdf</id>
+      <activation>
+        <!-- commenting this out per Jody's fdbk.  uncomment when ready for -Dall build to include this module. -->
+        <property>
+          <name>all</name>
+        </property>
+      </activation>
+      <modules>
+        <module>gcenetcdf</module>
+      </modules>
+    </profile>    
      <profile>
        <id>unsupported</id>
        <activation>
@@ -158,6 +170,7 @@
     <module>geopkg</module>
     <module>mbtiles</module>
     <module>wfs-ng</module>
+    <module>gcenetcdf</module>
   </modules>
 
 </project>
