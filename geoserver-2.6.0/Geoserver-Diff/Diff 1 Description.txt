@@ -1,0 +1,1 @@
+Added wms_time and wms_elevation to the environment available to the WPS processes. This is to allow the WPS to make WCS calls and get coverages at the same time and elevation as the input data.
