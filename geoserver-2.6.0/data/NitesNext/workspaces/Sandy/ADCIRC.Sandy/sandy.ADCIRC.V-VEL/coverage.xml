@@ -1,0 +1,99 @@
+<coverage>
+  <id>CoverageInfoImpl-2210f95e:14916caafbd:-7fcc</id>
+  <name>sandy.ADCIRC.V-VEL</name>
+  <nativeName>sandy.ADCIRC.V-VEL</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-2210f95e:14916caafbd:-7fd5</id>
+  </namespace>
+  <title>sandy.ADCIRC.V-VEL</title>
+  <description>Generated from NetCDF</description>
+  <keywords>
+    <string>WCS</string>
+    <string>NetCDF</string>
+    <string>sandy.ADCIRC.0.0160.0003.0003.nc</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, &#xd;
+  DATUM[&quot;World Geodetic System 1984&quot;, &#xd;
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], &#xd;
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+  UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+  AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-66.00800323486328</minx>
+    <maxx>-49.992000579833984</maxx>
+    <miny>38.992000579833984</miny>
+    <maxy>55.007999420166016</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-66.00800323486328</minx>
+    <maxx>-49.992000579833984</maxx>
+    <miny>38.992000579833984</miny>
+    <maxy>55.007999420166016</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+    <entry key="dirName">ADCIRC.Sandy_sandy.ADCIRC.0.0160.0003.0003.nc</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-2210f95e:14916caafbd:-7fcf</id>
+  </store>
+  <nativeFormat>NetCDF</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1001 1001</high>
+    </range>
+    <transform>
+      <scaleX>0.01600000265237692</scaleX>
+      <scaleY>-0.015999998841490542</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>-66.00000323353709</translateX>
+      <translateY>54.99999942074527</translateY>
+    </transform>
+    <crs>EPSG:4326</crs>
+  </grid>
+  <supportedFormats>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <dimensions>
+    <coverageDimension>
+      <name>sandy.ADCIRC.0.0160.0003.0003.nc</name>
+      <description>GridSampleDimension[0.0,1.0]</description>
+      <range>
+        <min>0.0</min>
+        <max>1.0</max>
+      </range>
+      <nullValues>
+        <double>NaN</double>
+        <double>NaN</double>
+      </nullValues>
+      <dimensionType>
+        <name>REAL_32BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <parameters>
+    <entry>
+      <string>NETCDFPARAMETER</string>
+      <string>v-vel</string>
+    </entry>
+  </parameters>
+  <nativeCoverageName>sandy.ADCIRC.0.0160.0003.0003.nc</nativeCoverageName>
+</coverage>

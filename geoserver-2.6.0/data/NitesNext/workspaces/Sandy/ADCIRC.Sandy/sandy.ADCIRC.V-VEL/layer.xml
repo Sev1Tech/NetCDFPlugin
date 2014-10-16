@@ -1,0 +1,15 @@
+<layer>
+  <name>sandy.ADCIRC.V-VEL</name>
+  <id>LayerInfoImpl-2210f95e:14916caafbd:-7fcb</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2210f95e:14916caafbd:-7fe4</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-2210f95e:14916caafbd:-7fcc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

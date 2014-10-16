@@ -1,0 +1,11 @@
+GeoServer 2.6.0
+-------------------
+
+This release was built on Sep 26, 2014. The changelog for this release can be found:
+
+  http://jira.codehaus.org/browse/GEOS/fixforversion/20649
+
+This release is based on:
+
+  GeoTools 12.0
+  GeoWebCache 1.6.0

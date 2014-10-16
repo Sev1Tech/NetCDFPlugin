@@ -1,0 +1,29 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-2210f95e:14916caafbd:-7fb1</id>
+  <name>SampleMagDirGroup</name>
+  <mode>SINGLE</mode>
+  <title>Magnitude and Direction Group</title>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-2210f95e:14916caafbd:-7fb9</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-2210f95e:14916caafbd:-7fc2</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-2210f95e:14916caafbd:-7fbb</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-2210f95e:14916caafbd:-7ff2</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-66.00800323486328</minx>
+    <maxx>-49.992000579833984</maxx>
+    <miny>38.992000579833984</miny>
+    <maxy>55.007999420166016</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

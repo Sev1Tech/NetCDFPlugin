@@ -1,0 +1,23 @@
+<settings>
+  <id>SettingsInfoImpl-2210f95e:14916caafbd:-7fd4</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-2210f95e:14916caafbd:-7fd6</id>
+    <name>Sandy</name>
+  </workspace>
+  <contact>
+    <id>contact</id>
+    <addressCity>Alexandria</addressCity>
+    <addressCountry>Egypt</addressCountry>
+    <addressType>Work</addressType>
+    <contactEmail>claudius.ptolomaeus@gmail.com</contactEmail>
+    <contactOrganization>The ancient geographes INC</contactOrganization>
+    <contactPerson>Claudius Ptolomaeus</contactPerson>
+    <contactPosition>Chief geographer</contactPosition>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>8</numDecimals>
+  <onlineResource>http://geoserver.org</onlineResource>
+  <verbose>false</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+</settings>

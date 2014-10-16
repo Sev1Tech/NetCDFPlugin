@@ -1,0 +1,15 @@
+<layer>
+  <name>sandy.ADCIRC.Magnitude</name>
+  <id>LayerInfoImpl-2210f95e:14916caafbd:-7fb9</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2210f95e:14916caafbd:-7fbb</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-2210f95e:14916caafbd:-7fba</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

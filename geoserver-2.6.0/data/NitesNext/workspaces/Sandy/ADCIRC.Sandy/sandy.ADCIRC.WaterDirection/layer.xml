@@ -1,0 +1,15 @@
+<layer>
+  <name>sandy.ADCIRC.WaterDirection</name>
+  <id>LayerInfoImpl-2210f95e:14916caafbd:-7fc2</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2210f95e:14916caafbd:-7ff2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-2210f95e:14916caafbd:-7fc3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
