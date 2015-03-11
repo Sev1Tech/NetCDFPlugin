@@ -1,4 +1,4 @@
-NitesNext
+NetCDF Plugin for GeoTools 12.0
 =========
 
-Nites Next
+Under modules/unsupported is the geonetcdf plugin
